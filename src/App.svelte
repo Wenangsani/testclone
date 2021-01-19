@@ -10,6 +10,7 @@
 	import Home from "./pages/Home.svelte";
 	import Login from "./pages/Login.svelte";
 	import Instructors from "./pages/Instructors.svelte";
+	import Explores from "./pages/Explores.svelte";
 
 	export let url = "";
 </script>
@@ -17,5 +18,6 @@
 <Router url="{url}">
 	<Route path="/login"><Login /></Route>
 	<Route path="/instructors"><Instructors /></Route>
+	<Route path="/explores"><Explores /></Route>
 	<Route path="/"><Home /></Route>
 </Router>

@@ -20,6 +20,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/instructors" use:link>INSTRUCTORS</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/explores" use:link>EXPLORES</a>
+        </li>
         <li class="nav-item dropdown dd-shop">
           <a class="nav-link navbar-shop-dropdown" href="#!">
             SHOP <div class="navbar-shop-badge" />

@@ -346,7 +346,7 @@
 </div>
 
 <div class="container-fluid">
-  <div class="row">
+  <div class="row p-4">
     {#each listInstructor as { pict, name }}
       <div class="col-2 p-4">
         <img src={pict} alt={name} width="100%" class="img-circle" />
